@@ -2,7 +2,6 @@ module tb;
   bit [7:0]   m_data;
  
   initial begin
-    // 1. Assign a value to the vector
     m_data = 8'hF1; 
  
     // 2. Iterate through each bit of the vector and print value
