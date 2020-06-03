@@ -1,5 +1,5 @@
 module tb;
-  bit [7:0]   m_data;   // A vector or 1D packed array
+  bit [7:0]   m_data;
  
   initial begin
     // 1. Assign a value to the vector
