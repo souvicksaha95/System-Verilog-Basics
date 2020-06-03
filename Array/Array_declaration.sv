@@ -4,11 +4,11 @@ module tb;
   initial
     begin
       m_data = 8'hF1; 
- 
-    for (int i = 0; i < $size(m_data); i++) begin
-      $display ("m_data[%0d] = %b", i, m_data[i]);
+      for (int i = 0; i < $size(m_data); i++)
+        begin
+          $display ("m_data[%0d] = %b", i, m_data[i]);
+        end
     end
-  end
 endmodule
 /* # m_data[0] = 1
 # m_data[1] = 0
