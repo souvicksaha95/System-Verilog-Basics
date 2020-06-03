@@ -4,7 +4,6 @@ module tb;
   initial begin
     m_data = 8'hF1; 
  
-    // 2. Iterate through each bit of the vector and print value
     for (int i = 0; i < $size(m_data); i++) begin
       $display ("m_data[%0d] = %b", i, m_data[i]);
     end
