@@ -3,7 +3,7 @@ module tb;
  
   initial begin
     // 1. Assign a value to the vector
-    m_data = 8'hA2; 
+    m_data = 8'hF1; 
  
     // 2. Iterate through each bit of the vector and print value
     for (int i = 0; i < $size(m_data); i++) begin
