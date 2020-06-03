@@ -11,4 +11,12 @@ module tb;
     end
   end
 endmodule
- 
+/* # m_data[0] = 1
+# m_data[1] = 0
+# m_data[2] = 0
+# m_data[3] = 0
+# m_data[4] = 1
+# m_data[5] = 1
+# m_data[6] = 1
+# m_data[7] = 1 */
+// This will the Output
