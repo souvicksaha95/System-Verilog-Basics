@@ -8,3 +8,7 @@ int i; // 2-state, 32-bit signed integer
 byte b8; // 2-state, 8-bit signed integer  
 shortint s; // 2-state, 16-bit signed integer  
 longint l; // 2-state, 64-bit signed integer**
+
+It's not the best idea to use a variable of type **Byte** than using a **8 bit logic, logic [7:0]**  
+Keep in mind that Byte, Int, etc, all are signed data types. That means a byte can count from -127 to 127. But a 8 but logic can count up
+255.
