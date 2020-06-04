@@ -13,3 +13,7 @@ module new_logic_data_type;
  
   assign en = new_data[0];                 // logic datatype can also be driven via assign statements
 endmodule
+// Logic data can be manipulated inside procesural block like initial, always and also in assign statement.
+// The same can't be said about verilog code.
+// There 'reg' can be used in procedural block and 'wire' can be used in assign statement.
+// Logic data can be of 1-bit or upwards.
